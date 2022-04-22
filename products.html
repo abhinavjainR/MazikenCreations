@@ -1,0 +1,268 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>All Products - AR MAZIKEN CREATION</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet1.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+</head>
+<body>
+    <!----- nevigation -------->
+    <div class="container">
+        <div class=" navbar">
+            <div class="logo">
+                <img src="ar.jpg" width="150" height="80" />
+            </div>
+            <a class="main">MAZIKEN CREATIONS</a>
+            <nav>
+                <ul id="Menuitems">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="products.html">Product</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Search</a></li>
+                </ul>
+            </nav>
+            <div class="cart">
+                <img src="cart.jpg" height="50" width="40" />
+                <img src="menu.png" class="menuicon" height="50" onclick="menutoggle()" />
+            </div>
+        </div>
+
+    </div>
+    
+    <div class="small-container">
+        <div class="row row-2">
+            <h2>All Products</h2>
+            <select>
+                <option>Default Sorting</option>
+                <option>Sort by price</option>
+                <option>Sort by popularity</option>
+                <option>Sort by rating</option>
+                <option>Sort by sale</option>
+            </select>
+        </div>
+
+        <div class="row">
+            <div class="col-1">
+                <img src="images\mniketshirt.jpg" />
+                <h4>Black Printed T-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <p>Rs. 300</p>
+            </div>
+            <div class="col-1">
+                <img src="images\mnikejackets.jpg" />
+                <h4>Jacket</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>Rs. 1300</p>
+            </div>
+            <div class="col-1">
+                <img src="images\mpumatshirt.jpg" />
+                <h4>Puma Printed T-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>Rs. 700</p>
+            </div>
+            <div class="col-1">
+                <img src="images\mvanspant.jpg" />
+                <h4>Grey Pant</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <p>Rs.500</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-1">
+                <img src="D:\website ar\images\mniketshirt.jpg" />
+                <h4>Black Printed T-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <p>Rs. 300</p>
+            </div>
+            <div class="col-1">
+                <img src="D:\website ar\images\mnikejackets.jpg" />
+                <h4>Jacket</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>Rs. 1300</p>
+            </div>
+            <div class="col-1">
+                <img src="D:\website ar\images\mpumatshirt.jpg" />
+                <h4>Puma Printed T-shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>Rs. 700</p>
+            </div>
+            <div class="col-1">
+                <img src="D:\website ar\images\mvanspant.jpg" />
+                <h4>Grey Pant</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <p>Rs.500</p>
+            </div>
+            <div class="row">
+                <div class="col-1">
+                    <img src="D:\website ar\images\summerlooks.jpg" />
+                    <h4>Summer Looks</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <p>Rs. 900</p>
+                </div>
+                <div class="col-1">
+                    <img src="D:\website ar\images\mreebokbag.jpg" />
+                    <h4>Reebok Black Bag</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <p>Rs. 1700</p>
+                </div>
+                <div class="col-1">
+                    <img src="D:\website ar\images\mnikejackets.jpg" />
+                    <h4>Jacket</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p>Rs. 1300</p>
+                </div>
+                <div class="col-1">
+                    <img src="D:\website ar\images\mpumatshirt.jpg" />
+                    <h4>Puma Printed T-shirt</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p>Rs. 700</p>
+                </div>
+                <div class="pagebtn">
+                    <span>1</span>
+                    <span>2</span>
+                    <span>3</span>
+                    <span>4</span>
+                    <span>&#8594;</span>
+                </div>
+            </div>
+            </div>
+
+
+        </div>
+
+
+
+
+        <!--Footer-->
+
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col">
+                        <h3>
+                            Download Our App
+                        </h3>
+                        <p>Download App for Android and IOS mobile phones</p>
+                        <div class="applogo">
+                            <img src="playstore.jpg" />
+                            <img src="appstore.jpg" />
+                        </div>
+                    </div>
+                    <div class="footer-col-1">
+                        <img src="ar.jpg" height="40" width="40" />
+                        <p>Our purpose is to Sustainably make the pleasure and benefits of Daily Wears Accessible to the many.</p>
+                    </div>
+                    <div class="footer-col-2">
+                        <h3>Useful Links</h3>
+                        <ul>
+                            <li>Coupons</li>
+                            <li>Blog Post</li>
+                            <li>Return Policy</li>
+                            <li>Join Affiliate</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Follow Us</h3>
+                        <ul>
+                            <li>Faceook</li>
+                            <li>Instagram</li>
+                            <li>Twitter</li>
+                            <li>Youtube</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr />
+                <p class="copyright">Copyright 2021 - AR Maziken Creations</p>
+            </div>
+        </div>
+
+        <!--js for toggle menu-->
+
+        <script>
+            var Menuitems = document.getElementById("Menuitems");
+
+            Menuitems.style.maxHeight = "0px";
+
+            function menutoggle() {
+                if (Menuitems.style.maxHeight == "0px") {
+                    Menuitems.style.maxHeight = "200px";
+                }
+                else {
+                    Menuitems.style.maxHeight = "0px";
+                }
+            }
+
+        </script>
+</body>
+</html>
